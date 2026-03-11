@@ -6,8 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "sigmarizz111.aternos.me",
-    "port": 45899,
+    "ip": "IsaacWasTaken1112.aternos.me
+",
+    "port": 38823,
     "version": "",
     "try-creative": false
   },
@@ -65,7 +66,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -74,16 +75,16 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
-    "enabled": false,
+    "enabled": true,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
